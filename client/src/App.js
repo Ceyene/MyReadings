@@ -1,6 +1,6 @@
 import React from "react";
-import "App.css";
-import imagen from "./assets/reading-book.svg";
+import "./assets/styles/App.scss";
+import imagen from "./assets/static/reading-book.svg";
 
 const App = () => (
   <div>
