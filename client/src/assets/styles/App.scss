@@ -1,7 +1,74 @@
-h1 {
-  color: blueviolet;
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@400;700&family=Mate+SC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img {
-  width: 500px;
+body {
+  font-family: "KoHo", sans-serif;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+}
+
+.navbar {
+  width: 100vw;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 3rem;
+    margin-right: 1rem;
+  }
+
+  h3 {
+    font-family: "Mate SC", serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.15rem;
+  }
+}
+
+.main {
+  width: 90vw;
+  max-width: 1300px;
+  min-width: 270px;
+  margin: 1.5rem auto;
+  padding: 1.5rem 1rem;
+
+  &__title {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Mate SC", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.6);
+  }
+
+  .container {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0.625rem 0.625rem 1.75rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    border-top: 0.125rem solid rgba(255, 255, 255, 0.5);
+    border-left: 0.125rem solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(0.4rem);
+    padding: 1.5rem 1rem;
+  }
+}
+
+.footer {
+  width: 100vw;
+  padding: 1.5rem 1rem;
+  text-align: center;
+
+  p {
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    font-family: "Mate SC", serif;
+    font-weight: 300;
+  }
 }
